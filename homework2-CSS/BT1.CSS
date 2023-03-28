@@ -1,0 +1,14 @@
+.container{    height: 250px;
+    width: 800px;
+    background-color: lightgrey;
+    accent-color: red;
+    font: menu}
+    .header{background-color: lightgrey;
+        text-align: center;
+        color: blue;}
+    .checkboxes{    line-height: 2;
+        margin-left: 271px;
+        font-size: 20px;}
+    #checkbox3{
+        opacity: 10%;
+    }

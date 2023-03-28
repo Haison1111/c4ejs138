@@ -1,0 +1,37 @@
+.container{
+    height: 350px;
+    width: 520px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.image{
+    height: 158px;
+    width: 425px;
+    background-color: lightgray;
+    text-align: center;
+    text-align-last: center;
+    padding-top: 111px;
+    padding-right: 9px;
+    font-size: 40px;
+    color: white;
+}
+.Headline2{
+    width: 430px;
+    margin-top: 7px;
+    font-size: 80%;
+    margin-bottom: 9px;
+}
+.content{
+    width: 430px;
+    font-size: 60%;
+    margin-top: 0px;
+    opacity: 60%;
+}
+#rm{    
+    height: 30.2px;
+    width: 91.2px;
+    font-size: 55%;
+    color: white;
+    background-color: #00BCD4;
+    border: 1px solid #00BCD4;
+    margin-top: 17px;
+}

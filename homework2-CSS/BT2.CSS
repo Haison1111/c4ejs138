@@ -1,0 +1,68 @@
+.container{
+    width: 600px;
+    height: 250px;
+    background-color: rgb(226, 224, 224);
+    font-family: Arial, Helvetica, ui-sans-serif;
+}
+.header{font-size: 30px;
+    color: steelblue;
+    font-family: Arial, Helvetica, ui-sans-serif;
+    margin-left: 120px;
+    padding-top: 15px;}
+.line1{
+    font-size: 25px;
+    font-family:Arial, Helvetica, sans-serif ;
+    margin-left: 129px;}
+    
+#draw{
+    width: 80.2px;
+    height: 35.2px;
+    margin-left: -35px;
+    color: red;
+    border: 1px red solid;
+    background-color: rgb(226, 224, 224);
+}
+#dmeet{
+    width: 134.2px;
+    height: 35.2px;
+    margin-left: 40px;
+    color: red;
+    border: 1px red solid;
+    background-color: rgb(226, 224, 224);
+}
+#center{
+    width: 80.2px;
+    height: 35.2px;
+    margin-left: 40px;
+    color: blue;
+    border: 1px blue solid;
+    background-color: rgb(226, 224, 224);
+}
+.line2{
+    margin-top: 25px;
+    margin-left: 93px;
+}
+#spin{
+    width: 58.2px;
+    height: 56.2px;
+    margin-left: 54px;
+    color: red;
+    border: 1px red solid;
+    background-color: rgb(226, 224, 224);
+}
+#sc{
+    width: 58.2px;
+    height: 64.2px;
+    margin-left: 44px;
+    color: red;
+    border: 1px rgb(226, 224, 224) solid;
+    background-color: rgb(226, 224, 224);
+}
+#st{
+    width: 58.2px;
+    height: 73.2px;
+    margin-left: 54px;
+    color: red;
+    border: 1px red solid;
+    background-color: rgb(226, 224, 224);
+}
