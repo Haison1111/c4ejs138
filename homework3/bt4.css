@@ -1,0 +1,54 @@
+*{ margin: 7px 0px;}
+
+.container{
+    padding: 10px;
+    background-color: rgb(169, 218, 247);
+    width: 119px;
+    height: 286px;
+}
+.tagline{
+     padding: 10px 20px 10px;
+     text-align: center;
+     border: 1px solid;
+     background-color: rgb(252, 238, 221);
+     border: none;
+     font-size: 90%;
+     margin-top: 0px;
+}
+
+.user{
+    position: relative;
+    padding: 10px 20px 10px;
+     text-align: center;
+     border: 1px solid;
+     background-color: rgb(252, 238, 221);
+     border: none;
+     font-size: 90%;
+}
+.content{
+    position: absolute;
+    left: 133px;
+    width: 120px;
+    height: 137px;
+    visibility: hidden;
+    top: 0;
+}
+.user:hover .content{
+    visibility: visible;}
+.user:hover{
+    cursor: pointer;
+    background-color: rgb(190, 180, 166) ;
+}
+
+.copyright{ font-size: 50%;
+    text-align: center;
+    margin-top: 110px;
+
+}
+.popup{
+    padding: 7px 10px 7px;
+    border: 1px solid;
+    text-align: center;
+    font-size: 90%;
+    margin:0;
+}

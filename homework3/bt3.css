@@ -1,0 +1,99 @@
+.container{
+    padding: 20px ;
+    height: 300px;;
+    width: 400px;
+    background-color: rgb(179, 177, 177);
+    position: relative;
+}
+.muctieu{
+    padding: 14px;
+    border: 1px solid ;
+    width: 90px;
+    background-color: bisque;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50% , -50% );
+    text-align: center;
+    font-size: 90%;
+    border: none;
+}
+.m1{
+    padding: 12px;
+    border: 1px solid;
+    width: 90px;
+    text-align: center;
+    background-color: rgb(132, 196, 36);
+    color: white;
+    position: absolute;
+    border: none;
+    top: 92px;
+    left: 32px;
+    height: 25px;
+
+}
+.m2{
+    padding: 12px;
+    border: 1px solid;
+    width: 90px;
+    text-align: center;
+    background-color: rgb(58, 87, 15);
+    color: white;
+    position: absolute;
+    border: none;
+    top: 54px;
+    left: 162px;
+    height: 25px;
+}
+.m3{
+    padding: 12px;
+    border: 1px solid;
+    width: 90px;
+    text-align: center;
+    background-color: rgb(44, 95, 235);
+    color: white;
+    position: absolute;
+    border: none;
+    top: 92px;
+    left: 294px;
+    height: 25px;
+}
+.m4{
+    padding: 12px;
+    border: 1px solid;
+    width: 90px;
+    text-align: center;
+    background-color: rgb(245, 1, 33);
+    color: white;
+    position: absolute;
+    border: none;
+    top: 166px;
+    left: 294px;
+    height: 25px;
+}
+.m5{
+    padding: 12px;
+    border: 1px solid;
+    width: 90px;
+    text-align: center;
+    background-color: rgb(142, 34, 146);
+    color: white;
+    position: absolute;
+    border: none;
+    top: 214px;
+    left: 162px;
+    height: 25px;
+}
+.m6{
+    padding: 12px;
+    border: 1px solid;
+    width: 90px;
+    text-align: center;
+    background-color: rgb(38, 1, 245);
+    color: white;
+    position: absolute;
+    border: none;
+    top: 166px;
+    left: 32px;
+    height: 25px;
+}

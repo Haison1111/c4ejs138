@@ -5,7 +5,8 @@
     font: menu}
     .header{background-color: lightgrey;
         text-align: center;
-        color: blue;}
+        color: blue;
+        padding-top: 21px;}
     .checkboxes{    line-height: 2;
         margin-left: 271px;
         font-size: 20px;}

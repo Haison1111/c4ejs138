@@ -1,0 +1,197 @@
+.container{
+    position: relative;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 2500px;
+    width: 1500px;
+}
+.opening{
+    text-align: center;
+    background-color: rgb(152, 212, 212);
+    height: 700px;
+    position: relative;
+}
+.header{
+    font-size: 500%;
+    position: absolute;
+    color: rgb(29, 170, 170);
+    top: 169px;
+    left: 50%;
+    transform: translate(-50%,0);
+    font-family:cursive ;
+}
+.mountain{
+    position: absolute;
+    bottom: 0;
+    left: 50% ;        
+    transform: translate(-50%,0);
+}
+.p1{
+    font-size: 270%;
+    position: absolute;
+    color: rgb(29, 170, 170);
+    top: 252px;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+.cloud1{
+    position: absolute;
+    top: 371px;
+    left: 301px;
+}
+.cloud2{
+    position: absolute;
+    top: 50px;
+    left: 1000px;
+}
+.myself{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 60px;
+}
+.person{
+    border-radius: 50%;
+}
+.hello{
+    font-size: 250%;
+    color: rgb(29, 170, 170) ;
+    text-align: center;
+    padding-top: 40px ;
+    
+}
+.skills{
+    position: relative;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    margin-top: 54px;
+}
+.line1{
+    position: absolute;
+    color: rgb(29, 170, 170) ;
+    top: 130px;
+    left:calc(50% - 122px);
+    font-size: 130%;
+}
+.detail1{
+    width:450px ;
+    position: absolute;
+    top: 196px;
+    left: calc(50% - 122px);
+}
+.computer{
+    position: absolute;
+    top: 138px;
+    left: 430px;
+    width: 175px;
+    height: auto;
+}
+.line2{
+    position: absolute;
+    color: rgb(29, 170, 170) ;
+    top: 364px;
+    left: calc(50% - 321px);
+    font-size: 130%;
+}
+.detail2{
+    width:450px ;
+    position: absolute;
+    top: 432px;
+    left: calc(50% - 320px);
+}
+.noodle{
+    position: absolute;
+    top: 376px;
+    left: 898px;
+    width: 161px;
+    height: auto;
+}
+.getintouch{
+    position: relative;
+    padding: 50px 0 ;
+    margin-top: 143px;
+}
+.hello2{
+    font-size: 250%;
+    color: rgb(29, 170, 170) ;
+    text-align: center;
+    padding-top: 40px ;
+    position: absolute;
+    top:100px;
+    top: 384px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+.line3{
+    position: absolute;
+    top: 565px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    color: rgb(29, 170, 170);
+    font-size: 120%;
+}
+.detail3{
+    position: absolute;
+    top: 617px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 400px;
+}
+.contact{
+    position: absolute;
+    top: 700px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    padding: 10px 20px;
+    border: none;
+    font-size: 110%;
+    color: white;
+    background-color:rgb(29, 170, 170) ;
+    border-radius: 5px;
+}
+.footage{
+    position: relative;
+    background-color: rgb(29, 170, 170);
+    bottom: -822px;
+    height: 150px;
+   
+    padding: 10px;
+}
+.linkedin{
+    position: absolute;
+    top: 60px;
+    left: 593px;
+    font-size: 130%;
+    color: rgb(20, 109, 109);
+}
+.Twitter{
+    position: absolute;
+    top: 60px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    font-size: 130%;
+    color: rgb(20, 109, 109);
+}
+.Website{
+    
+        position: absolute;
+        top: 60px;
+        left: 843px;
+        font-size: 130%;
+        color: rgb(20, 109, 109);
+}
+.year{
+    position: absolute;
+    top: 104px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    font-size: 130%;
+    color: white;
+}
+.skill{
+    font-size: 250%;
+    color: rgb(29, 170, 170) ;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,0);
+    top: -20px;
+}
