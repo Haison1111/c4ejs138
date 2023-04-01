@@ -1,17 +1,16 @@
 *{ margin: 7px 0px;}
 
 .container{
-    padding: 10px;
-    background-color: rgb(169, 218, 247);
+    padding: 10px 5px;
+    background-color: rgb(195, 206, 230);
     width: 119px;
     height: 286px;
 }
 .tagline{
      padding: 10px 20px 10px;
      text-align: center;
-     border: 1px solid;
+     border: 1px solid rgb(243, 193, 131);
      background-color: rgb(252, 238, 221);
-     border: none;
      font-size: 90%;
      margin-top: 0px;
 }
@@ -20,9 +19,8 @@
     position: relative;
     padding: 10px 20px 10px;
      text-align: center;
-     border: 1px solid;
+     border: 1px solid rgb(243, 193, 131);
      background-color: rgb(252, 238, 221);
-     border: none;
      font-size: 90%;
 }
 .content{
