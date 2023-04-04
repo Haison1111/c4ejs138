@@ -1,0 +1,169 @@
+.container {
+    width: 1025px;
+    height: 1141px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+    display: flex;
+justify-content: space-between;
+padding: 10px 20px;
+align-items: center;
+}
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.search {
+    border-radius: 11px;
+    display: flex;
+    justify-content: start;
+    align-content: center;
+    align-items: center;
+    height: 40px;
+    width: 471px;
+    border: 1px solid black;
+    opacity: 70%;
+    padding-left: 10px;
+    gap: 10px;
+}
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+i.fa-solid.fa-house {
+    height: 24px;
+    width: 24px;
+}
+i.fa-regular.fa-heart {
+    height: 24px;
+    width: 24px;
+}
+.speaker {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+    padding: 10px 20px;
+}   
+h3 {
+    font-size: 38px;
+}
+.body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+.ava{
+    display: flex;
+    width: 477px;
+    height: 296px;
+    border-radius: 16px;
+    margin: 0px;
+}
+.ava.olivia { 
+    background-color:#FFD38A ;
+}
+.avapic{
+    height: 200px;  
+    width: 206px;
+    border-radius: 16px;
+    object-fit: cover;
+}
+.avatar {
+    position: relative;
+    padding: 10px;
+    background: #e2e2e2;
+    border-radius: 16px;
+}
+.icon {
+    position: absolute;
+    left: 26px;
+    bottom: 26px;
+    gap: 10;
+    display: flex;
+    gap: 16px;
+    font-size: 30px;
+}
+.detail {
+    width: 238px;
+    height: 296px;
+    padding: 32px 16px 16px 16px;
+    display: flex;
+    flex-direction: column;
+
+}
+h4{
+    margin: 0;
+    font-size: 36px;
+}
+.detail1 {
+    font-size: 18px;
+    margin: 10px 0px;
+
+}
+.addres {
+    margin: 10px 0px;
+}
+
+.online {
+    display: flex;
+    position: absolute;
+    bottom: 86px;
+    padding: 6px 8px;
+    border-radius: 15px 0px;
+    right: 10px;
+    color: white;
+
+}
+.online.olivia{
+    background-color:#69A042 ;
+}
+.lang {
+    width:200px ;
+    margin: 10px 0px;
+}
+.icon2 {
+    height: 48px;
+    width: 206px;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 30px;
+    margin-top: 47px;
+    gap: 25px;
+}
+.ava.julia{
+    background-color:#ABE1FF ;
+}
+.online.julia{
+    background-color: #F8981D;
+    color: white;
+}
+.ava.kenneth{
+    background-color:#D6E7FF ;
+}
+.online.kenneth{
+     background-color:#F04438 ;    
+     color: white;
+}
+.icon2.kenneth{
+    margin-top: 8px;   
+}
+.ava.brian{
+    background-color:#ADFFE6 ;
+}
+.icon2.brian{
+    margin-top: 27px;
+}
+.ava.jonas{
+    background-color:#FFC5A0 ;
+}
+.ava.joan{
+    background-color:#A5FF96 ;
+}
+.online.joan{
+    background-color: #828282;
+}

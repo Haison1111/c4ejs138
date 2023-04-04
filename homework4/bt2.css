@@ -1,0 +1,41 @@
+.container{
+    display: flex;
+    background-color: blanchedalmond;
+    padding: 20px;
+    height: 30px;
+    width: 90%;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    padding: 0 20px;
+    border: 1px solid black;
+    margin-left: 15px;
+    background-color: rgb(119, 240, 151);
+}
+.end{
+    display: flex;
+    align-items: center;    
+}
+.group{
+    display: flex;
+    justify-content: end;
+    margin: 0 10px;
+    
+}
+.start{
+    display: flex;
+    align-items: center;
+}
+.brandname{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 20px;
+    font-style:oblique;
+}
+.login{
+    display: flex;
+    border: 1px solid black ;
+    background-color: rgb(177, 248, 224);
+    padding: 10px 20px;
+}

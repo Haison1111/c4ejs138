@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container-header {
+    background: #FF9800;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+}
+
+.items {
+    display: flex;
+}
+
+.item {
+    border: 1px solid black;
+    border-right: none;
+    padding: 4px 8px;
+    background: pink;
+}
+
+.item:last-child{
+    border-right: 1px solid black;
+}
+
+/* .border-right{
+    border-right: 1px solid black;
+} */
+
+.item.logo {
+    background: antiquewhite;
+}

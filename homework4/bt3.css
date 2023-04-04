@@ -1,0 +1,32 @@
+.container{
+    display: flex;
+    width: 100%;
+    background-color: blanchedalmond;
+    justify-content: space-between;
+}
+.start{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    padding: 10px 20px;
+    border: 1px solid;
+    margin: 0px 20px;
+    background-color: rgb(191, 242, 128);
+}
+.end{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.group{
+    display: flex;
+    padding: 5px 10xp ;
+
+}
+.group.circle{
+    border: 1px blue solid;
+    padding: 15px;
+    border-radius: 50%;
+    background-color: rgb(188, 239, 222);
+}

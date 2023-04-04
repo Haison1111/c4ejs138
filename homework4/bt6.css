@@ -1,0 +1,36 @@
+.container {
+    width: 600px;
+    height: 500px;
+}
+.header {
+    display: flex;
+    height: 50px;
+    width: 598px;
+    background: antiquewhite;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #f7cd9b;
+
+}
+.body {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0px;
+}
+.sidebar{
+    display: flex;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    background: #ed9abd;
+    padding: 0px 10px;
+    border: 1px solid red;
+}
+.content {
+    display: flex;
+    background: #c8eddc;
+    width: 370px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #85b185;
+}
