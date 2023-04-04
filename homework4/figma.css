@@ -6,8 +6,9 @@
 .header{
     display: flex;
 justify-content: space-between;
-padding: 10px 20px;
+height: 72px;
 align-items: center;
+padding: 0px 24px;
 }
 .menu {
     display: flex;
@@ -46,7 +47,9 @@ i.fa-regular.fa-heart {
     align-items: center;
     justify-content: flex-start;
     gap: 20px;
-    padding: 10px 20px;
+    height: 68px;
+    margin-bottom: 20px;
+    padding: 0px 16px;
 }   
 h3 {
     font-size: 38px;
