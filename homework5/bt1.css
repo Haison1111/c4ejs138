@@ -1,0 +1,43 @@
+.container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.box{
+    height:250px;
+    width: 250px;
+}
+.box.red{
+    background-color: red;
+}
+.box.blue{
+    background-color: blue;
+}
+.box.black{
+    background-color: black;
+}
+@media (min-width:576px ) and (max-width:768px){
+    .container{
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+    .box.blue{
+        background-color: black;
+    }
+    .box.black{
+        background-color: blue;
+    }
+}
+@media only screen and (max-width:576px){
+    .container{
+        flex-wrap: wrap;
+        gap: 70px;}
+    .box.red{
+        background-color: blue;
+    }
+    .box.black{
+        background-color: red;
+    }
+    .box.blue{
+        background-color: black;
+    }
+}

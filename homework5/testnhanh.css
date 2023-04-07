@@ -1,0 +1,144 @@
+body{
+    font-family: 'Quicksand', sans-serif;
+    width: 1500px;
+}
+.header {
+    display: flex;
+    width: 100%;
+    padding: 10px
+;
+    justify-content: space-between;
+    background: antiquewhite;
+    border: 1px solid black;
+    margin: 20px 5px;
+    width: 1500px;
+}
+.circle {
+    background: yellow;
+    padding: 33px;
+    border: none;
+    border-radius: 50%;
+}
+.start {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    font-size: 150%;
+}
+.l-side {
+    display: flex;
+    width: 50%;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+img.photo {
+    width: 700px;
+    height: auto;
+    margin: auto;
+}
+.share {
+    padding: 10px;
+    width: 96px;
+    background: pink;
+    align-content: center;
+    text-align: center;
+    margin-left: 25px;
+    border-radius: 8px;
+    border: 1px solid red;
+}
+.taix {
+    background: #bbbb4c;
+    width: 119px;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid yellowgreen;
+    border-radius: 8px;
+}
+.watch {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background: #8686ff;
+    color: white;
+    border: 1px solid blue;
+    border-radius: 8px;
+    width: 378px;
+}
+
+.middle {
+    display: flex;
+}
+.name {
+    font-size: 200%;
+    /* font-style: revert; */
+    padding: 10px 10px;
+}
+.ttrz {
+    font-size: 150%;
+    padding: 10px;
+}
+.time {
+    padding: 10px;
+    font-size: 120%;
+    color: yellowgreen;
+}
+
+.icon {
+    color: #c3c360;
+    margin: 10px;
+}
+
+.theloai {
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px; */
+    align-items: center;
+}
+.theloai1 {
+    border: 1px solid black;
+    width: 133px;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 0px 15px;
+    /* display: flex; */
+    text-align: center;
+    margin-top: 50px;
+}
+.danhmuc {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 83px;
+}
+.mota{
+        padding: 5px;
+        border: 1px solid black;
+
+}
+
+i.fa-solid.fa-user {
+    display: flex;
+    background: #a4a4fb;
+    /* height: 50px; */
+    /* width: 50px; */
+    padding: 52px;
+    font-size: 300%;
+    border-radius: 50%;
+}
+.sergey {
+    flex-direction: column;
+    display: flex;
+}
+p.a-name {
+    display: flex;
+    justify-content: center;
+}
+.end {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+}

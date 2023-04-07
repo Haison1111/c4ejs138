@@ -51,8 +51,10 @@ i.fa-regular.fa-heart {
     margin-bottom: 20px;
     padding: 0px 16px;
 }   
-h3 {
+h3.social {
     font-size: 38px;
+    font-family: cursive;
+    
 }
 .body{
     display: flex;
