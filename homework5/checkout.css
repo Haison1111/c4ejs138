@@ -1,0 +1,167 @@
+body{
+    font-family: 'Noto Sans', sans-serif;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    background: antiquewhite;
+    border: 1px solid #e3b87e;
+}
+.start {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 0px 10px;
+    margin-left: 30px;
+}
+.circle {
+    padding: 20px;
+    background: #dd9b9b;
+    border-radius: 50%;
+}
+.shop {
+    font-weight: 600;
+    font-size: 120%;
+}
+.end {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 15px;
+    padding: 10px;
+    margin-right: 30px;
+}
+.cart-home {
+    background: #cdcde3;
+    border: 1px solid #a0a0c9;
+    border-radius: 4px;
+    padding: 3px;
+}
+.infomation {
+    margin: 0px 30px;
+    display: flex;
+}
+h4 {
+    margin-left: 30px;
+}
+.infomation {
+    margin: 0px 30px;
+    display: flex;
+    /* justify-content: space-between; */
+    width: 100%;
+}
+.infos {
+    width: 40%;
+    border: 1px solid black;
+    padding: 16px 24px;
+}
+
+.typeinn {
+    height: 26px;
+    width: 95%;
+    opacity: 60%;
+    margin: 10px 0px;
+}
+.payment {
+    width: 60%;
+    width: 969px;
+    border: 1px solid black;
+    padding: 16px 24px;
+}
+.card {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.radio{
+    height: 24px;
+    width: 24px;
+}
+.cart {
+    display: flex;
+    margin: 10px 30px;
+    justify-content: space-between;
+    border: 1px soid black;
+    border: 1px solid black;
+    padding: 5px 5px;
+}
+.c-start {
+    display: flex;
+    gap: 12px;
+    accent-color: #a2f7eb;
+}
+
+.image {
+    height: 100%;
+    width: 100px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p {
+    font-weight: 700;
+    font-size: 120%;
+}
+.s-color {
+    display: flex;
+    gap: 16px;
+    /* background: blue; */
+}
+.c-type {
+    padding: 0px 12px;
+    background: #a2f7eb;
+    border-radius: 4px;
+}
+.c-end {
+    padding: 8px;
+    /* margin-bottom: 12px; */
+}
+.strow {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 12px;
+}
+
+
+input#quantity {
+    height: 24px;
+    width: 64px;
+}
+.remove {
+    background: pink;
+    border-radius: 4px;
+    padding: 6px;
+    font-size: 90%;
+}
+.price {
+    font-weight: 500;
+}
+button.submit:hover{
+    background-color: #9e9eaf;
+    cursor: pointer;
+}
+button.submit {
+    /* height: 32px; */
+    margin-left: 30px;
+    padding: 8px;
+    background: #d7d7f5;
+    border: 1px solid #8989ff;
+    border-radius: 4px;
+}
+.footage {
+    padding: 8px;
+    border: 1px solid #c9a576;
+    background: antiquewhite;
+    margin: 36px 30px 0px 30px;
+}
+.footer {
+    display: flex;
+    margin-left: 16px;
+    gap: 24px;
+    margin-left: 32px;
+}

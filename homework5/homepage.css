@@ -1,0 +1,140 @@
+body{
+    font-family: 'Noto Sans', sans-serif;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    background: antiquewhite;
+    border: 1px solid #e3b87e;
+}
+.start {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 0px 10px;
+    margin-left: 30px;
+}
+.circle {
+    padding: 20px;
+    background: #dd9b9b;
+    border-radius: 50%;
+}
+.shop {
+    font-weight: 600;
+    font-size: 120%;
+}
+.end {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 15px;
+    padding: 10px;
+    margin-right: 30px;
+}
+.cart-home {
+    background: #cdcde3;
+    border: 1px solid #a0a0c9;
+    border-radius: 4px;
+    padding: 3px;
+}
+.body {
+    display: flex;
+    margin: 24px 32px;
+    gap: 24px;
+}
+.l-side {
+    border: 1px solid black;
+    padding: 4px 8px;
+    height: fit-content;
+}
+p{
+    /* margin-top: 8px; */
+    /* margin-bottom: 8px; */
+    margin: 8px 0px 8px 8px;
+    font-weight: 600;
+    
+}
+input#categories {
+    margin: 8px;
+}
+button.showmore {
+    padding: 6px 8px;
+    font-size: 100%;
+    margin: 8px;
+    background: #b9e6ed;
+    border: none;
+    border-radius: 4px;
+}
+.head {
+    display: flex;
+    border: 1px solid black;
+    padding: 4px;
+    margin: 0px 32px 24px 16px;
+    justify-content: space-between;
+    width: 1600px;
+    align-items: center;
+}
+input.search-bar {
+    padding: 10px;
+    width: 500px;
+    border-radius: 4px;
+    border: 1px solid;
+}
+i.fa-solid.fa-magnifying-glass {
+    font-size: 130%;
+    margin-left: -25px;
+}
+select.sort {
+    padding: 4px 4px;
+}
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    margin: 24px 16px;
+}
+.total {
+    display: flex;
+    justify-content: space-between;
+}
+.image {
+    height: 383px;
+    width: 383px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(223, 223, 223);
+}
+.price {
+    color: blue;
+    font-style: italic;
+}
+button.discount {
+    color: red;
+    /* border: wheat; */
+    background: white;
+    border: none;
+}
+.pages {
+    margin: 32px 0px 0px 210px;
+}
+button.page {
+    padding: 12px;
+}
+.footage {
+    padding: 8px;
+    border: 1px solid #c9a576;
+    background: antiquewhite;
+    margin: 36px 30px 0px 30px;
+}
+.footer {
+    display: flex;
+    margin-left: 16px;
+    gap: 24px;
+    margin-left: 32px;
+}
+h4{
+    margin-left: 32px;
+}
+

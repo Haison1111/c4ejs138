@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./checkout.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="start">
+          <div class="circle"></div>
+          <div class="shop">My Shop</div>
+        </div>
+        <div class="end">
+          <div class="tag">Home</div>
+          <div class="tag">About us</div>
+          <div class="tag">Contact</div>
+          <div class="cart-home">My Cart (0)</div>
+        </div>
+      </div>
+      <h4>Your Information</h4>
+      <div class="infomation">
+        <div class="infos">
+          <div class="info fullname">
+            <label for="fullname"> Fullname </label>
+            <div class="typein">
+              <input class="typeinn" type="name" id="fullname" name="name" required />
+            </div>
+          </div>
+          <div class="info phone">
+            <label for="phonenumber"> Phone number </label>
+            <div class="typein">
+              <input
+               class="typeinn"
+                type="phonenumber"
+                id="phonenumber"
+                name="phonenumber"
+                required
+              />
+            </div>
+          </div>
+          <div class="info address">
+            <label for="address"> Address</label>
+            <div class="typein">
+              <input class="typeinn" type="address" id="address" name="address" required />
+            </div>
+          </div>
+        </div>
+        <div class="payment">
+          <div class="method">Payment method</div>
+          <div class="card">
+            <input
+              class="radio"
+              type="radio"
+              id="creditcard"
+              name="payment"
+              value="creditcard"
+            />
+            <label class="pay-method" for="creditcard"> Credit Card </label>
+          </div>
+          <div class="card">
+            <input
+              class="radio"
+              type="radio"
+              id="yourbank"
+              name="payment"
+              value="bank"
+            />
+            <label class="pay-method" for="yourbank"> Your bank </label>
+          </div>
+          <div class="card">
+            <input
+              class="radio"
+              type="radio"
+              id="momo"
+              name="payment"
+              value="momo"
+            />
+            <label class="pay-method" for="momo"> Momo</label>
+          </div>
+        </div>
+      </div>
+      <h4> Cart </h4>
+      <div class="cart">
+        <div class="c-start">
+          <input type="checkbox" /><br />
+          <div class="image"> Images </div>
+          <div class="c-detail">
+            <p>Lorem ipsum dolor</p>
+            <div class="s-color">
+              <div class="c-type">Blue</div>
+              <div class="c-type">Classic</div>
+            </div>
+          </div>
+        </div>
+        <div class="c-end">
+          <div class="strow">
+            <input class="quantity" type="number" id="quantity" />
+            <div class="remove">Remove</div>
+          </div>
+          <div class="price">Total: $210</div>
+        </div>
+      </div>
+      <div class="cart">
+        <div class="c-start">
+          <input type="checkbox" /><br />
+          <div class="image"> Images</div>
+          <div class="c-detail">
+            <p>Lorem ipsum dolor</p>
+            <div class="s-color">
+              <div class="c-type">Blue</div>
+              <div class="c-type">Classic</div>
+            </div>
+          </div>
+        </div>
+        <div class="c-end">
+          <div class="strow">
+            <input class="quantity" type="number" id="quantity" />
+            <div class="remove">Remove</div>
+          </div>
+          <div class="price">Total: $210</div>
+        </div>
+      </div>
+      <div class="cart">
+        <div class="c-start">
+          <input type="checkbox" /><br />
+          <div class="image">Images</div>
+          <div class="c-detail">
+            <p>Lorem ipsum dolor</p>
+            <div class="s-color">
+              <div class="c-type">Blue</div>
+              <div class="c-type">Classic</div>
+            </div>
+          </div>
+        </div>
+        <div class="c-end">
+          <div class="strow">
+            <input class="quantity" type="number" id="quantity" />
+            <div class="remove">Remove</div>
+          </div>
+          <div class="price">Total: $210</div>
+        </div>
+      </div>
+      <div class="cart">
+        <div class="c-start">
+          <input type="checkbox" /><br />
+          <div class="image">Images</div>
+          <div class="c-detail">
+            <p>Lorem ipsum dolor</p>
+            <div class="s-color">
+              <div class="c-type">Blue</div>
+              <div class="c-type">Classic</div>
+            </div>
+          </div>
+        </div>
+        <div class="c-end">
+          <div class="strow">
+            <input class="quantity" type="number" id="quantity" />
+            <div class="remove">Remove</div>
+          </div>
+          <div class="price">Total: $210</div>
+        </div>
+      </div>
+      <button class="submit" type="submit" form="cart" value="submit">
+        Submit Order
+      </button>
+      <div class="footage">
+        <h4>My Shop</h4>
+        <div class="footer">
+          <div><i class="fa-solid fa-location-dot"></i> 22C Somewhere, Ha Noi </div>
+          <div><i class="fa-solid fa-phone-rotary"></i> 0987654321 </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
