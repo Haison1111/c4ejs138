@@ -230,7 +230,92 @@ const d2 = [ 5, 12, 24, 15,7];
 
 // let newd= [];
 
-arr.map(item => item % 2 === 0)
 
 
+let growth = [
+  [5,8,9,16],
+  [2,7,1,9],
+  [5,6,8,12],
+  [10,2,1,8],
+  [20,4,9,1]
+];
 
+// let year1 = growth.find(item => item[0])
+// let year2 = growth.find(item => item[1])
+// let year3 = growth.find(item => item[2])
+// let year4 = growth.find(item => item[3])
+// let year5 = growth.find(item => item[4])
+
+// let AvgGrowthYear = []
+// let SumGrowthYear = 0
+// let avgGrowth = 0
+// for (let i = 0; i<growth.length;i++){
+//   for ( let j = 0 ; j <= growth[i].length - 1;j++){
+//       if( i -1 < 0){
+//          SumGrowthYear += growth[i][j]
+// } else {
+//   SumGrowthYear +=  growth[i][j] - growth[i-1][j] 
+//   } 
+//   avgGrowth = SumGrowthYear/growth[i].length
+// }  
+// AvgGrowthYear.push(avgGrowth)
+// }
+// /* [1] = 38
+//  [2] = 19
+//  [3] = 31
+//  [4] = 21
+//  [5] = 34
+// */
+// console.log(AvgGrowthYear)
+
+// Tìm giá trị tăng trưởng trung bình theo năm lớn nhất.
+
+// let AvgGrowthYearMax = AvgGrowthYear[0] ;
+// for (let n = 0; n <AvgGrowthYear.length; n++){
+//     if ( AvgGrowthYear[0] <  AvgGrowthYear[n] ){
+//         AvgGrowthYearMax = AvgGrowthYear[n]
+//     }
+// }
+// console.log(AvgGrowthYearMax)
+
+
+// Tìm giá trị tăng trưởng theo quý lớn nhất.
+
+
+// let MaxQuaterGrowth = []
+// for ( let i = 0; i< growth.length; i++){
+//     let QuarterMax = growth[i][0]
+//     for ( let j = 0 ; j < growth[i].length; j++){
+//         if (growth[i][0] < growth[i][j] ){
+//             QuarterMax = growth[i][j]
+//         }
+//     }
+//     MaxQuaterGrowth.push(QuarterMax)
+// }
+// console.log(MaxQuaterGrowth)
+// let MaximusGrowth = MaxQuaterGrowth[0];
+// for (let n = 0 ; n < MaxQuaterGrowth.length; n++){
+//     if (MaxQuaterGrowth[0] < MaxQuaterGrowth[n]){
+//         MaximusGrowth = MaxQuaterGrowth[n]
+//     }
+// }
+// console.log(MaximusGrowth)
+
+
+// Tính giá trị tăng trưởng trung bình theo quý của các năm (Tính trung bình theo cột).
+
+// let GrowthQuater = 0 ;
+// let GrowthQuaterGroup = []
+// let AvgGrowthQuarter ;
+// for ( let i = 0;i< growth[0].length; i++){
+//     for ( let j = 0; j< growth.length ;j++){
+//         if ( i-1 < 0){
+//             GrowthQuater += growth[j][i]
+//         } else {
+//             GrowthQuater += growth[j][i] - growth[j][i-1]
+//         }
+//         AvgGrowthQuarter = GrowthQuater/growth.length
+//     }
+//       GrowthQuaterGroup.push(AvgGrowthQuarter)
+// }
+// console.log(GrowthQuaterGroup)
