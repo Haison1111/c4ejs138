@@ -319,3 +319,4 @@ let growth = [
 //       GrowthQuaterGroup.push(AvgGrowthQuarter)
 // }
 // console.log(GrowthQuaterGroup)
+

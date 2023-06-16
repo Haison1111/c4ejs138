@@ -468,17 +468,17 @@ let posts = [{
 
 
 // for ( let i = 0; i < users.length;i++){
-//     //     if( passWord == '' || Email == '' ){
-//     //         console.log("hãy nhập đầy đủ thông tin !")
-//     //         break
-//     //     } if( users[i].password == passWord && users[i].email == Email ){
-//     //         console.log(`xin chào ${users[i].first_name} ${users[i].last_name}`)
+//         if( passWord == '' || Email == '' ){
+//             console.log("hãy nhập đầy đủ thông tin !")
+//             break
+//         } if( users[i].password == passWord && users[i].email == Email ){
+//             console.log(`xin chào ${users[i].first_name} ${users[i].last_name}`)
             
-//     //     } if( users[i].password !== passWord && users[i].email !== Email ){
-//     //         console.log("Thong tin tai khoan khong chinh xac ")
-//     //         break
-//     //     }
-//     // }
+//         } if( users[i].password !== passWord && users[i].email !== Email ){
+//             console.log("Thong tin tai khoan khong chinh xac ")
+//             break
+//         }
+//     }
 
 
 
